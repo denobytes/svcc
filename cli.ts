@@ -1,5 +1,5 @@
 import { parse as argparse } from "https://deno.land/std@0.181.0/flags/mod.ts";
-import { compile } from "npm:svelte@^4.0.4/compiler";
+import { compile } from "npm:svelte@^4.2.8/compiler";
 
 const args = argparse(Deno.args, {
   boolean: [
